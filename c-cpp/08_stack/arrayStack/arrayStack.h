@@ -12,7 +12,7 @@
 typedef struct _array_stack
 {
 	int size;/*栈的大小*/
-	int pos;/*当前存储元素的个数，即栈顶元素下表*/
+	int pos;/*当前存储元素的个数，即栈顶元素下标*/
 	int *array;/*数据存储区*/
 }stArrayStack;
 
